@@ -1,3 +1,28 @@
-p {
-    color:blueviolet
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculator-body {
+    align-items: center;
+    justify-content:start;
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    border-radius: 20px;
+    padding: 20px;
+    height: 500px;
+}
+
+.calculator-screen {
+    background-color: rgb(186, 216, 255);
+    width: 500px;
+    height: 100px;
+}
+
+.calculator-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 500px;
 }
