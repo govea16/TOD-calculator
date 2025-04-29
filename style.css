@@ -36,12 +36,18 @@ button {
     color: #000000;
     font-size: 19px;
     border-radius: 5px;
+    border: none;
+    background-color: #fcfcfc;
+} 
+button:hover {
+    background-color: #858585;
 }
 
 .divide,.multiply,.minus,.add {
     background-color: #909090;
     outline: none;
 }
+
 
 .equals {
     background-color: #ff8040;
